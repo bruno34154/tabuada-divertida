@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #964b00;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: start;
+}
+.container{
+	margin-top: 40px;
+	background-image: url("img//leaf.jpg");
+	height: 100%;
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: start;
+}
+.title-area{
+	margin-top: 20px;
+	display: flex;
+	align-items: start;
+	justify-content: center;
+
+}
+
+.title{
+	font-size: 3rem;
+	font-family: arial;
+	font-weight: bold;
+
+}
+.img-title{
+	height: 100px;
+	width: 90px;
+
+}
+.titleSide{
+	width: 90%;
+}
+.imageSide{
+	width: 10%;
+}
+
+.input-Area{
+ width: 90%;
+ margin-bottom: 20px;
+
+}
+.text{
+	padding-top: 40px;
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+.numberInput1{
+	border-radius: 10px;
+	width:100%;
+	padding: 5px;
+
+}
+.numberInput2{
+	border-radius: 10px;
+	width:100%;
+	padding: 5px;
+}
+
+.resultado{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.buttonArea{
+	margin-top: 20px;
+	margin-bottom: 40px;
+
+}
+.button{
+	margin-left: 10px;
+	appearance: none;
+	-webkit-appearance: none;
+	padding: 10px 10px;
+	border: solid 4px black;
+	border-radius: 5px;
+	font-weight: 600;
+	color: black;
+	background-color: white;
+
+}
+.button:hover{
+	color: white;
+	border: solid 4px white;
+	background-color: black;
+}
+
