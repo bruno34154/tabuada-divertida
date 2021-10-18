@@ -51,33 +51,35 @@ body{
 }
 
 .input-Area{
+ margin-left: 1000px;
  width: 90%;
  margin-bottom: 20px;
+
 
 }
 .text{
 	padding-top: 40px;
-	font-size: 20px;
+	font-size: 30px;
 	font-weight: bold;
 	
 }
 .numberInput1{
 	border-radius: 10px;
-	width:100%;
-	padding: 5px;
+	width:30%;
+	padding: 10px;
 
 }
 .numberInput2{
 	border-radius: 10px;
-	width:100%;
-	padding: 5px;
+	width:30%;
+	padding:  10px;
 }
 
 .resultado{
 	font-weight: bold;
 	font-size: 20px;
-        height: 200px;
-        overflow-y: scroll;
+    height: 300px;
+   overflow-y: scroll;
 }
 
 .buttonArea{
